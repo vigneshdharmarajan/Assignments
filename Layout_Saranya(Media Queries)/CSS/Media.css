@@ -1,0 +1,393 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	border:0;
+}
+a:link{
+	text-decoration:none;
+}
+a:visited{
+	text-decoration:none;
+}
+.wrapper{
+	background:#e8e8e8;
+	overflow:auto;
+	margin:0 auto;
+}
+.top{
+	overflow:auto;
+	display:block;
+}
+.menu{
+	list-style-type:none;		
+	float:right;
+	font-weight:bold;	
+}
+.menu li a:link{
+	color:#1d282a;
+}
+.menu li a:visited{
+	color:#1d282a;
+}
+.menu li a:active{
+	color:#fe83a2;
+}
+.ruler{
+	height:1px;
+	margin:15px auto;
+	background:#000000;
+}
+.mainPicHead{
+	margin:5px auto;
+	text-align:center;
+}
+.mainPicSubHead{
+	margin:2px auto;
+	text-align:center;
+}
+.pink{
+	color:#fe83a2;
+	display:inline-block;
+}
+.aboutMeHead{
+	color:#fe83a2;
+	font-weight:bold;
+	font-size:18px;
+	margin:15px auto;
+	text-align:Center;
+	font-family:lucida calligraphy;
+}
+.aboutMeArticle{
+	width:500px;
+	text-align:justify;
+}
+.thanks{
+	font-size:24px;
+	text-align:center;
+	margin:25px auto;
+	display:block;
+	font-family:lucida calligraphy;
+}
+footer{
+	color:#ff828d;
+	background:#2d2d2d;
+}
+.inputBox{
+	background:#d4d4d4;
+	width:350px;
+	margin:15px auto;
+	Display:block;	
+	overflow:hidden;
+}
+.button{
+	background-color:#2d2d2d;
+	color:#d4d4d4; 
+}
+.spriteContainer{
+	background: #2d2d2d;
+	float:right;
+}
+.spriteContainer a{
+	background:url(../images/sprite.png) 0 0; 
+	display: inline-block;
+}
+.spriteContainer a:hover{
+	background:url(../images/sprite_hover.png) 0 0; 	
+}
+@media all and (max-width: 1366px) and (min-width: 1280px) 
+{
+.wrapper{
+	max-width:1280px;
+}
+#mainHeader{	
+	margin:0 auto;
+	width:1020px;
+}
+.logo{
+	float:left;
+	margin:11px 0px;
+}
+.menu{
+	margin:25px 15px;
+}
+.menu li{
+	float:left;	
+	margin:0 0 0 50px;
+}
+.welcomePic{
+	background:url(../images/main.png) no-repeat;
+	width:1020px;
+	height:264px;
+	margin:5px auto;
+}
+#aboutMe{
+	width:500px;
+	float:left;
+	padding:0 0 45px 130px;
+}
+#myWork{
+	width:500px;
+	float:right;
+	padding:0 130px 45px 0px;	
+}
+.pics{
+	width:1020px;
+	margin:0 auto;
+}
+.contentsPic{
+	Display:inline-block;
+	margin:8.4px;
+}
+footer
+{
+	width:1280px;
+	float:left;
+}
+#contact{
+	width:510px;
+	margin:10px 15px;
+	display:inline-block;
+	float:left;
+}
+#contactHead{
+	padding-left:80px;
+}
+button{
+	margin-left:75px; 
+}
+.spriteContainer{
+	width: 300px;
+	padding: 35px;
+	margin-left:15px;
+	padding-top:80px;
+	float:right;
+}
+.spriteContainer a{
+	width: 31px;
+	height: 32px;
+	margin: 10px;
+}
+.spriteContainer a.twitter{
+	background-position: -2px;
+}
+.spriteContainer a.facebook{
+	background-position: -54px;
+}
+.spriteContainer a.youtube{
+	background-position: -105px;
+}
+.spriteContainer a.google{
+	background-position: -158px;
+}
+}
+@media all and (min-width: 768px) and (max-width:1279px)
+{
+.wrapper{
+	max-width:768px;
+	overflow:hidden;
+}
+#mainHeader{	
+	margin:0 auto;
+	width:675px;
+}
+.logo{
+	float:left;
+	margin:20px 0px;
+}
+.menu{
+	margin:25px 15px;
+}
+.menu li{
+	float:left;	
+	margin:0 0 0 10px;
+}
+.welcomePic{
+	background:url(../images/ipad.png) no-repeat;
+	width:675px;
+	height:177px;
+	margin:5px auto;
+}
+#aboutMe{
+	width:324px;
+	float:left;
+	padding:0 0 45px 46.5px;
+}
+.aboutMeHead{
+	font-size:18px;
+	margin:15px auto;
+}
+.aboutMeArticle{
+	width:315px;
+}
+#myWork{
+	width:324px;
+	float:right;
+	padding:0 46.5px 45px 0px;	
+}
+.pics{
+	clear:both;
+	width:675px;
+	margin:0 auto;
+}
+.contentsPic{
+	display:inline-block;
+	margin:1px 0px;
+	width:130px;
+	height:130px;
+}
+footer{
+	width:768px;
+	display:inline-block;
+}
+#contact{
+	width:410px;
+	margin:10px 15px;
+	float:left;
+}
+#contactHead{
+	padding-left:35px;
+}
+button{
+	margin-left:30px; 
+}
+.spriteContainer{
+	width: 241px;
+	padding: 35px;
+	margin-left:0px;
+	padding-top:80px;
+}
+.spriteContainer a{
+	width: 31px;
+	height: 32px;
+	margin: 10px;
+}
+.spriteContainer a.twitter{
+	background-position: -2px;
+}
+.spriteContainer a.facebook{
+	background-position: -54px;
+}
+.spriteContainer a.youtube{
+	background-position: -105px;
+}
+.spriteContainer a.google{
+	background-position: -158px;
+}
+}
+
+@media all and (max-width: 767px) and (min-width: 320px) 
+{
+.wrapper{
+	max-width:320px;
+}
+#mainHeader{	
+	margin:0 auto;
+	width:299px;
+}
+.logo{
+	margin:2px 87px;
+}
+.menu{
+	margin:15px 22px;
+	padding:0;
+}
+.ruler{
+	height:1px;
+	margin:5px auto 0px auto;
+	background:#000000;
+}
+.menu li{
+	display:inline-block;	
+	margin:0 0 0 0px;
+}
+.welcomePic{
+	background:url(../images/main.png) no-repeat;
+	background-size:cover;
+	width:299px;
+	min-height:78px;
+	margin:5px auto;
+}
+#aboutMe{
+	width:299px;
+	margin:0 auto;
+}
+.aboutMeHead{
+
+	margin:8px auto;
+}
+.aboutMeArticle{
+	width:299px;
+
+}
+#myWork{
+	width:299px;
+	margin:0 auto;	
+}
+.pics{
+	clear:both;
+	width:299x;
+	margin:0 auto;
+	margin: 0 10px;
+}
+.contentsPic{
+	display:inline-block;
+	margin:3.4px;
+	width:140px;
+	height:140px;
+}
+.thanks{
+	font-size:17px;
+}
+footer{
+	color:#ff828d;
+	background:#2d2d2d;
+	width:320px;
+}
+#contact{
+	width:110px;
+	margin:10px 0px 10px 10px;
+	display:inline-block;
+}
+#contactHead{
+
+}
+.inputBox{
+	width:280px;
+	height:13px;
+	font-size:8px;
+}
+#msg{
+	height:28px;
+}
+button{
+	font-size:8px;
+}
+.spriteContainer{
+	width: 217px;
+	padding: 0px;
+	margin-left:15px;
+	padding-left:103px;
+}
+.spriteContainer a{
+	width: 31px;
+	height: 32px;
+	background-size:cover;
+	margin: 10px;
+}
+.spriteContainer a:hover {
+		background-size:cover;
+}
+.spriteContainer a.twitter{
+	background-position: 0px;
+}
+.spriteContainer a.facebook{
+	background-position: -49px;
+}
+.spriteContainer a.youtube{
+	background-position: -97px;
+}
+.spriteContainer a.google{
+	background-position: -177px;
+}
+}

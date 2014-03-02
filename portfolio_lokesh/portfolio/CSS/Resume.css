@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+}
+
+body
+{
+	background-color:#ffffff;
+	min-width:800px;
+	max-width:1366px;
+	overflow-y:auto;	
+}
+
+.wrapper
+{
+
+}
+.content{
+	background:#eae5e5;
+	width:100%;
+}
+.centerPane
+{
+	width:60%;
+	display:inline-block;
+	padding: 2% 2%;
+}
+.sidePane
+{
+	float:right;
+	width:20%;
+	display:inline-block;
+	padding: 2% 8% 1% 2% ;
+}
+.tab
+{
+	display:Block;
+	overflow:auto;
+	margin:1% 0;
+}
+.resumeText
+{
+	font-size:98px;
+	color:#ffffff;
+	padding:2.5% 0% 1% 8%;
+}
+
+.circle
+{
+	background:url(../Images/button1.png);
+	width: 97px;
+	height: 97px;
+	border-style: none;
+	color:#FFFFFF;
+	font-weight:bold;
+	float:left;
+	margin: 5% 2%;
+}
+.heading
+{
+	font-size:20px;
+	color:#606060;
+	font-weight:bold;
+	display:block;	
+}
+.mainText
+{	
+	float:left;
+	margin:0 auto;	
+	padding:2% 1% 2% 5%;
+	font-size:20px;
+	width:64%;	
+	color:#606060;
+	text-indent:4%;
+	text-align:justify;
+}
+.mainText ul li
+{
+	line-height:30px;
+}
+.imgSide
+{
+padding-left:25%;
+}
+.ruler
+{
+	clear:both;	
+	background-color:#606060;
+	width:95%;
+	height:1px;
+	margin:1% 2.5%;
+}
+.ruler1
+{
+	clear:both;	
+	background-color:#606060;
+	width:66%;
+	height:1px;
+	margin:7% 2.5%;
+}

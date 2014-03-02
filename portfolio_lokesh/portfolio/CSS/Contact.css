@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+}
+
+body
+{
+	background-color:#ffffff;
+	min-width:800px;
+	max-width:1366px;
+	max-height:768px;
+	overflow:hidden;
+}
+
+.wrapper
+{
+
+}
+
+
+.content{
+	background:#eae5e5;
+	overflow:auto;
+	height:398px;
+	width:100%;
+}
+
+.contactMe
+{
+	font-size:340%;
+	color:#ffffff;
+	padding:6% 0% 0% 3%;
+	display:inline-block;
+	float:left;
+}
+.inputForm
+{	
+	float:right;
+	margin:0 auto;	
+	padding:5% 5% 5% 0%;
+}
+.formTitle
+{
+	color:#606060;
+	font-size:17px;;
+}
+input
+{
+	clear:both;
+	display:block;
+	background-color:#e83556;
+	color:#b6a9a9;
+	margin:1% 0% 1% 0%;
+}
+.textBox
+{
+	width:100%;
+}
+textarea
+{
+	width:100%;
+	min-height:50px;
+	background-color:#e83556;
+	color:#b6a9a9; 
+	overflow:hidden;
+	}
+button
+{
+	color:#FFFFFF;
+	background-color:#61cfd3;
+	float:right;
+	margin:1% 1% 1% 0;
+}
+.social1
+{
+	display:inline-block;
+	float:left;
+	width:41%;
+	padding:2% 2% 1% 5%;;	
+}
+.connect
+{
+	display:inline-block;
+	float:left;
+	width:41%;
+	padding:0% 2% 0% 5%;;	
+}
+.socialText1
+{
+	font-weight:bold;
+}
+.socialText2
+{
+	width:10%;
+
+}
